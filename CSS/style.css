@@ -1,0 +1,205 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+li {
+    margin: 5px;
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.25,1.25);
+}
+
+.logo {    
+    width: 100px; 
+    height: 100px; 
+    padding: 1%;
+    position: top;      
+}
+
+.name {
+    text-align: left;
+    font-weight: 900;
+    font-size: 50px;
+    position: absolute;
+    margin-block-start: 20px;
+}
+
+.navigation {
+    background-image: linear-gradient(to bottom right, darkorange, yellow);
+    overflow: hidden;      
+}
+
+nav {
+    width: 90%;
+    padding-right: 5%;
+    text-align: right;
+    font-size: 25px;
+    font-weight:bold;
+    position: absolute;
+}
+
+ul {
+    width: 80%;
+    margin-left: auto;
+    padding: 1%;
+}
+
+.heroimg {
+    min-height: 600px;
+    padding: 25px;
+    background-color: black
+}
+
+.content {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.statement {
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+    height: 20px;
+    width: 800px;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    background-color: #2e2c2c;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 15%;   
+}
+
+button:hover {
+    background-color: rgb(10, 43, 143);
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.25,1.25);
+}
+
+.myskills {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.flexContainer {
+    display:flex;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.flexContainer > div {
+    width:33%;
+    margin: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mywork {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.workGrid {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-template-areas: 
+    "travel_yes"
+    "go_vote"
+    "dvs"
+    "eagan_art"
+    ;
+}
+
+footer {
+    background-image: linear-gradient(to top left, darkorange, darkorange, yellow);
+    text-align: left;
+    font-weight:bold;
+    height: 100px;
+    font-size: larger;    
+}
+
+footer ul {
+    float: left;
+}
+
+@media only screen and (max-width: 600px){
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;    
+    }
+    .flexContainer > div {
+        width:100%;
+        margin: 1px;
+        padding: 1px;
+    }
+    .workGrid {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "travel_yes"
+        "go_vote"
+        "dvs"
+        "eagan_art"
+        ;
+    } 
+    ul {
+        list-style-type: none;
+        left: 0%;
+        margin-top: 75px;
+        padding: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+    .heroimg {
+        min-height: 600px;		
+        padding: 5px;
+        background-color: black
+    }
+    .content {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 25px;
+    }
+    .mypic {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 25px;
+    }
+}
