@@ -12,3 +12,10 @@ function putButtonBack() {
     $('#confetti').hide();
     $('#downloadBtn').show();
 }
+
+// Handle nav and footer bar hover feedback
+$('li').hover(function(){
+    $(this).css("background-color", "white");
+  }, function(){
+  $(this).css("background-color", "");
+});

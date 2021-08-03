@@ -12,12 +12,6 @@ li {
     margin: 5px;
 }
 
-li:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.25,1.25);
-}
-
 .logo {    
     width: 100px; 
     height: 100px; 
@@ -54,17 +48,15 @@ ul {
 }
 
 .heroimg {
-    min-height: 600px;
-    padding: 25px;
-    background-color: black
+    background-color: black;
+    margin-top: 2%;
 }
 
 .content {
     width: 500px;
     margin: auto;
     text-align: center;
-    color: white;
-    padding: 25px;
+    color: white;    
 }
 
 .statement {
@@ -88,7 +80,7 @@ button {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 15%;   
+    margin: 5%;
 }
 
 button:hover {
@@ -104,6 +96,7 @@ button:hover {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
+    margin: 5%;
 }
 
 .flexContainer {
@@ -138,6 +131,31 @@ button:hover {
     "dvs"
     "eagan_art"
     ;
+}
+
+.contact {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin: 5%;
+}
+
+.dropmealine {
+    font-size: 80px;
+}
+
+.tagline {
+    font-size: 30px;
+}
+
+.email {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.sparkle {
+    width: 400px;
+    height: 200px;
 }
 
 footer {
